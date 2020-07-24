@@ -1,10 +1,11 @@
 package main.java.com.lahuta;
 
-import main.java.com.lahuta.memoryEror.MemoryEror;
+import main.java.com.lahuta.error.MemoryError;
 
 public class Main {
 
     public static void main(String[] args) {
-        MemoryEror.printMemoryEror();
+        MemoryError memoryError = new MemoryError();
+        memoryError.printMemoryError();
     }
 }
